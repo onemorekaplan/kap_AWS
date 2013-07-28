@@ -223,11 +223,15 @@ textarea {
 
 body {
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 15px;
   line-height: 20px;
   color: #333333;
   background-color: #ffffff;
+  background: url(https://farm8.staticflickr.com/7292/8768551121_5828cf9225_k.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top center;
 }
 
 a {
@@ -6123,10 +6127,21 @@ a.badge:focus {
 
 .hero-unit h1 {
   margin-bottom: 0;
+  font-family: 'Permanent Marker', cursive;
   font-size: 55px;
   line-height: 1;
   letter-spacing: -1px;
   color: inherit;
+}
+
+.hero-unit h3 {
+  font-family: 'Rock Salt', cursive;
+  font-size: 18px;
+}
+
+.hero-unit p {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 16px;
 }
 
 .hero-unit li {
